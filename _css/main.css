@@ -156,7 +156,7 @@ nav ul {
 }
 /*header styles*/
 header {
-	background: rgb(100, 98, 102);
+	background: rgb(39, 156, 239);
 	width: 100%;
 	padding-top: 1px;
 	overflow: hidden;
@@ -176,7 +176,7 @@ header a:hover {
 	border: none;
 	color: white;
 }
-/*nav styles*/
+/*nav styles hasta aquí el capitulo 3.2 del curso*/
 #mainNav {
 	overflow: hidden;
 	margin-bottom: 1.5em;
@@ -410,7 +410,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', end
 
 /*footer styles*/
 #pageFooter {
-	background: rgb(173, 169, 130);
+	background: rgb(39, 156, 239);
 	padding-top: 1.5em;
 }
 
