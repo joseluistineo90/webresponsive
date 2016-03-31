@@ -1,12 +1,24 @@
 <!DOCTYPE HTML>
-<html lang="en">
+
 
 <!--Comienzo del head-->
 <head>
 <meta charset="UTF-8">
-<title>Welcome to Visión Tecnológica GP C.A</title>
+<title>Visión Tecnológica GP C.A</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="_css/main.css" rel="stylesheet" media="screen, projection">
+
+			
+	
+
+	<!-- Inicio del javascript-->
+	<script src="js/modernizr-2.8.3-respond-1.4.2.min" ></
+	script>
+	<script src="./js/jquery-1.11.2.min" ></script> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js " ></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.caroufredsel/6.2.1/jquery.carouFredSel.packed.js"></script>
+<!--Fin del javascript-->
+
 </head>
 <!--Fin del head-->
 
@@ -18,34 +30,62 @@
 
 <!--Inicio del Header-->
 <header id="pageHeader" role="banner">
+<!--Logo principal vision tecnologica-->
+<div class="container">
+				<img id="logo" src="_images/logoDefinitivo.png" alt="logo">
+
+
+<!--Fin logo vision tecnologica-->	
   <hgroup>
-    <h1><a href="index.htm">Visión Tecnológica</a></h1>
+    <h1><a href="index.htm">Visión Tecnológica GP C.A</a></h1>
     <h2>Software para Restaurantes, hoteles y negocios sin importar cuántas sucursales sean</h2>
   </hgroup>
 </header>
+
 <!--Fin del Header-->
+
+
+ <!--Inicio menu moviles-->
+ 	<nav id="menu">
+		<ul class="clearfix container">
+		<li><a href="galleries.htm" title="landing page" class="gallery current">Home</a></li>
+		<li><a href="gear.htm" title="Favorite gear" class="gear">Servicios</a></li>
+		<li><a href="#">Nosotros</a></li>
+		<li><a href="#">Blog</a></li>
+		<li><a href="contact.htm" title="Get in touch">Contacto</a></li>
+		
+		</ul>
+		<a href="#" id="pull">Menú</a>
+
+		</nav>
+
+
+ <!--Fin menu moviles-->
+
 
 <!--Inicio navegacion principal-->
 
 <nav id="mainNav" role="navigation">
  <h2>Navegación</h2>
   <ul>
-    <li><a href="galleries.htm" title="Our photo galleries" class="gallery current">SERVICIOS <em>elige cuál se adapta a tu negocio.</em></a> </li>
-    <li><a href="gear.htm" title="Favorite gear" class="gear">NOSOTROS <em>Tenemos 10 años de experiencia</em></a></li>
-    <li><a href="contact.htm" title="Get in touch" class="interact">CONTACTO<em>Síguenos en nuestras redes sociales</em></a></li>
-    <li><a href="shop.htm" title="Buy our stuff" class="shop">ICG SOFTWARE <em>Adquiere el mejor Software ICG!</em></a></li>
+    <li><a href="galleries.htm" title="Our photo galleries" class="gallery current">SERVICIOS </a> </li>
+    <li><a href="gear.htm" title="Favorite gear" class="gear">NOSOTROS </a></li>
+    <li><a href="contact.htm" title="Get in touch" class="interact">CONTACTO</a></li>
+    <li><a href="shop.htm" title="Buy our stuff" class="shop">ICG SOFTWARE </a></li>
   </ul>
 </nav>
 <!--Fin navegación principal-->
+
+
 
 
 <!--inicio SECCION PRINCIPAL-->
 <section id="content" role="main">
   <div class="mission">
       <h1>ICG está presente en 50 países</h1>
-    <p>Gestiona de manera confiable y robusta , todas las áreas de tu negocio, nuestra misión se enfoca a brindar <strong>Servicio y Atención al cliente</strong>.</p>
+    <p>Gestiona de manera confiable , todas las áreas de tu negocio,<strong>servicio y atención al cliente ofrecemos productos de calidad en software suministros y equipos</strong>.</p>
   </div>
-<!--fin seccion proncipal -->
+<!--fin seccion principal -->
 
   <!--Inicio del article-->
 
@@ -57,8 +97,9 @@
       <p class="pubdate">
         <time datetime="2016-03-27" pubdate>Mar 2016</time>
       </p>
-      <div class="preview"><a href="philadelphia.htm" title="Philadelphia gallery"></a></div>
-      <p class="caption">Visita nuestra galería de imágenes.</p>
+      <div class="preview"><a href="sm_philly_banner.jpg" title="Philadelphia gallery"></a></div>
+      <p class="caption"> El Software Punto de Venta FrontRest es una herramienta de trabajo muy intuitiva y fácil de usar. Su utilización, gracias a la interacción visual con el usuario, no requiere de formación ni de conocimientos informáticos. Todas las funciones de venta, control y estadística están diseñadas para pantallas táctiles: "Lo que ve en pantalla el camarero, es lo que obtiene", evitando así costosos procesos de aprendizaje para el usuario.
+</p>
     </section>
     <!--FIN Seccion de la galeria ICG FrontRest-->
 	
@@ -69,7 +110,7 @@
         <time datetime="2016-04-24" pubdate>April 2016</time>
       </p>
       <div class="preview"><a href="chicago.htm" title="Chicago gallery"></a></div>
-      <p class="caption">Big wind, big shoulders. See a different side of Chicago.</p>
+      <p class="caption">FrontRetail es altamente personalizable, aportando una solución para cada necesidad: boutiques, zapaterías, tiendas de deporte, perfumerías, electrodomésticos, supermercados, etc. Además, su escalabilidad permite que se adapte a la dimensión del cliente, pudiendo cubrir desde una pequeña tienda a una cadena con cientos de establecimientos..</p>
     </section>
 <!--FIN Seccion de la galeria ICG FrontRetail-->
 
@@ -80,7 +121,12 @@
         <time datetime="2011-01-10" pubdate>Jan 2011</time>
       </p>
       <div class="preview"><a href="new_york.htm" title="New York gallery"></a></div>
-      <p class="caption">A little Christmas magic, Big Apple style.</p>
+      <p class="caption">Este software se convierte en un sistema de altas prestaciones para un mercado con necesidades muy exigentes. se caracteriza por
+una interacción con el usuario atractiva y fácil de usar, por un
+diseño abierto y funcional, por una estructura interna de
+programación sólida y profesional y por la utilización de bases
+de datos de arquitectura cliente / servidor para garantizar en
+todo momento la seguridad y fiabilidad de los datos. </p>
     </section>
 <!-- FIN Seccion de la galeria ICG Manager-->
   </article>
@@ -88,32 +134,31 @@
 
   <aside role="complementary">
     <nav id="archives">
-      <h2>Nuestra Galería de productos</h2>
+      <h2>Galería de productos</h2>
       <ul>
-        <li><a href="charlotte.htm" title="charlotte">Charlotte</a></li>
-        <li><a href="miami.htm" title="miami">Miami</a></li>
-        <li><a href="denver.htm" title="denver">Denver</a></li>
-        <li><a href="boston.htm" title="boston">Boston</a></li>
-        <li><a href="cincinnati.htm" title="cincinnati">Cincinnati</a></li>
-        <li><a href="lost_angeles.htm" title="los angeles">Los Angeles</a></li>
-        <li><a href="charleston.htm" title="charleston">Charleston</a></li>
-        <li><a href="dallas.htm" title="dallas">Dallas</a></li>
-        <li><a href="providence.htm" title="providence">Providence</a></li>
-        <li><a href="birmingham.htm" title="birmingham">Birmingham</a></li>
-        <li><a href="cleveland.htm" title="cleveland">Cleveland</a></li>
-        <li><a href="baltimore.htm" title="balitmore">Baltimore</a></li>
+        <li><a href="charlotte.htm" title="charlotte">Aclas</a></li>
+        <li><a href="miami.htm" title="miami">Bixolon</a></li>
+        <li><a href="denver.htm" title="denver">Bematech</a></li>
+        <li><a href="cincinnati.htm" title="cincinnati">Epson</a></li>
+        <li><a href="lost_angeles.htm" title="los angeles">Papel térmico</a></li>
+        <li><a href="charleston.htm" title="charleston">Papel químico</a></li>
+        <li><a href="dallas.htm" title="dallas">Cámaras de seguridad</a></li>
+        <li><a href="providence.htm" title="providence">Gavetas para dinero</a></li>
+        <li><a href="birmingham.htm" title="birmingham">Impresoras fiscales</a></li>
+        <li><a href="cleveland.htm" title="cleveland">Puntos de Venta</a></li>
+        <li><a href="baltimore.htm" title="balitmore">Asistencia técnica</a></li>
       </ul>
     </nav>
     <section class="contest">
-      <h2>This month's contest</h2>
-      <img src="_images/contest.jpg" width="200" height="200" alt="This month's contest">
-      <p>Do you know where this is? Send your guess to us via the contact page. All correct entries will be added to a drawing at the end of the month. The randomly selected winner will win a framed print of their choice from our shop. Cool! <span class="enter"><a href="#" title="enter our contest">Enter</a></span></p>
+      <h2>ICG Sotware Robusto</h2>
+      <img src="_images/contest.png" width="200" height="200" alt="This month's contest">
+      <p>Software de interfaz amigable, no necesita capacitación especializada, controle inventarios, facturación, empleados y finanzas con una sola herramienta! <span class="enter"><a href="#" title="enter our contest">Enter</a></span></p>
     </section>
     <section class="contest">
-      <h2>Previous contest</h2>
-      <img src="_images/previous.jpg" width="200" height="200" alt="This month's contest">
-      <h3>Cultural District, Denver CO</h3>
-            <p>Congratulations to Daniel Weston, who correctly identified this shot as being located in the cultural district of Denver, Colorado! For his efforts, Daniel wins a limited edition print of this shot. Way to go Daniel!</p>
+      <h2>Telecomandas en tiempo real</h2>
+      <img src="_images/previous.png" width="200" height="200" alt="This month's contest">
+      <h3>Terminales de mano</h3>
+            <p>Puede gestionar varios negocios con una sola herramienta y en tiempo real, automatiza los procesos de su negocio con gestion de auto-venta , preventa basada en terminales de mano!</p>
     </section>
   </aside>
 </section>
@@ -122,16 +167,51 @@
 
 <footer id="pageFooter" role="contentinfo">
   <form action="http://desolve.org" method="post" class="search-form" role="search">
-    <label for="search">Looking for something?</label>
+    <label for="search">Busca algo especifico?</label>
     <input type="search" placeholder="Search" title="Search" class="q" name="search" id="search">
     <input type="submit" class="submit" value="Go" name="submit">
   </form>
   <p><a href="http://www.twitter.com/jameswillweb">twitter</a></p>
-  <p class="notice">&copy; 2011 desolve.org</p>
+  <p class="notice">&copy; 2016 vtgp1</p>
 </footer>
 
 <!--Fin del Footer-->
 </body>
 
+
+
 <!--Fin del Body-->
+
+
+<!--INICIO script desde el cdn de jquery para el menu moviles-->
+
+	<script>
+		$(function() {
+
+			var pull   = $('#pull');
+				menu = $('nav ul');
+				menuHeight = menu.height(); 
+
+
+				$(pull).on('click', function (e){
+					e.preventDefault();
+					menu.slideToggle();
+
+				});
+
+				$(window).resize(function(){
+
+					var w = $(window).width();
+					if(w > 320 && menu.is(':hidden')) {
+						menu.removeAttr('style');
+					}
+
+
+				});
+
+			});
+
+
+	</script> 
+<!--Fin del script cdn del menu para moviles-->
 </html>
