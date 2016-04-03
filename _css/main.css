@@ -7,10 +7,10 @@ feel free to use these styles as you wish
 attribution would be nice, but not required
 */
 
-/* desolve color palette
+/* vision tecnologica color palette
 #4C4341     rgb(76, 67, 65)  ASH
 #646266      rgb(100, 98, 102)  DULL GRAY
-#7B798F     rgb(123, 121, 143)  PEWTER BLUE
+#7B798F     rgb(88, 152, 211)  PEWTER BLUE// transparencia banner del header
 #ADA982    rgb(173, 169, 130)  DARK TAN
 #D8D5BC   rgb(216, 213, 188)  MED TAN
 #EDE4D6   rgb(237, 228, 214)  LIGHT TAN
@@ -148,10 +148,96 @@ body {
 	font-weight:normal;
 	font-style:normal;
 }
+/*----------------------------------para slider-----------------------------*/
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
 
-#mainNav h2 {
+}
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	zoom:1;
+}
+
+
+img,video,object {
+	max-width: 100%;
+}
+
+
+.container {
+	width: 960px;
+	margin:  auto;
+	height: auto;
+	line-height: 100%;
+}
+
+/*----------------------Menu GLOBAL----------------------*/
+	#menu {
+
+		height: auto;
+		width: 100%;
+		background-color: #edf;
+		font-weight: bold;
+		border-bottom: 7px solid #5898d3;
+}
+
+#menu ul {
+
+	padding: 0;
+	height: 50px;
+	width: 600px;
+
+}
+
+#menu li {
+	display: inline;
+	float: left;
+	background-color: #75cfe5;
+}
+
+#menu a {
+	border-right: 1px solid #576969;
+	color: #fff;
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 40px;
+	text-shadow:  1px 1px 0px #283744;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+#menu li:last-child a {
+	border-right: 5;
+}
+
+#menu a:hover, #menu a:active {
+	background-color: #7ba9e5;
+}
+
+#menu a#pull {
+
 	display: none;
 }
+
+#slideshow {
+	width: 100%;
+	height: auto;
+}
+
+.slide {
+	width: 100%;
+	height: auto;
+}
+
+/*FIN DEL MENU*/
 
 nav ul {
 	list-style: none;
@@ -163,7 +249,7 @@ header {
 	width: 100%;
 	padding-top: 1px;
 	overflow: hidden;
-	margin-bottom: 1.5em;
+	margin-bottom: 1em;
 }
 
 header h1 {
@@ -415,7 +501,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', end
 	background: url(../_images/tweet_90.png) no-repeat;
 }
 
-/*mobile styles*/
+/****************************************************mobile styles****************************************/
 @media only screen and (max-width:480px) {
 
 /*disable text sizing on orientation change*/
@@ -423,7 +509,22 @@ html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h
 	-webkit-text-size-adjust:none;
 }
 
-/*Inicio Menu 480px*/
+
+	
+
+
+
+
+
+
+
+
+
+	/*INICIO MENU MOVILES CREACIONES YANMARY  480px*/
+
+	
+@media screen and (max-width: 480px) {
+
 	.container {
 		width: 100%;
 	}
@@ -463,13 +564,14 @@ border-bottom: 0;
 
 	#menu a#pull:after {
 		content: "";
-		background: url('../images/nav-icon.png') no-repeat;
+		background: url('../_images/nav-icon.png') no-repeat;
 		width: 40px;
 		height: 40px;
 		display: inline-block;
 		position: absolute;
 		right: 1px;
 		top: 0px;
+		
 	}
 
 
@@ -487,6 +589,12 @@ border-bottom: 0;
 
 }
 
+/*Fin del menu tomado de creaciones yanmary para móviles*/
+
+	
+
+
+
 body {
 	width: 90%;
 	margin: 0 auto;
@@ -496,14 +604,14 @@ body {
 
 /*header styles*/
 header {
-	height: 70px;
+	height: 100%;
 }
 
 header h1 {
-	font-size: 2em;
+	font-size: 1em;
 	padding-left: 55px;
 	line-height: 70px;
-	width: 190px;
+	width: 250px;
 	margin: 0 auto;
 	background: url(../_images/desolve_logo_50.png) no-repeat left center;
 }
@@ -742,7 +850,7 @@ nav select {
 }
 }
 
-/*tablet styles*/
+/*************************************************************tablet styles**********************/
 @media only screen and (min-width:481px) and (max-width:768px) {
 
 body {
@@ -1067,7 +1175,7 @@ nav select {
 	text-align: right;
 }
 }
-/*desktop styles*/
+/*********************************************desktop styles**************************************************/
 @media only screen and (min-width:769px) {
 
 body {
@@ -1077,21 +1185,20 @@ body {
 	max-width: 1280px;
 }
 
-/*header styles*/
+/*header styles principal*/
 header {
-	height: 165px;
+	height: auto;
 }
 
 header h1 {
-	font-size: 3.2em;
-	padding-left: 110px;
-	line-height: 100px;
-	line-height: 165px;
+	font-size: 1.5em;
+	padding-left: 300px;
+	line-height: 50px;
 	margin-right: .5em;
 	float: left;
 	margin-left: 3.9%;/* fixes nasty 1px header fitting problem*/
 	display: inline;
-	background: url(../_images/desolve_logo.png) no-repeat left center;
+	background: url(../_images/logoDefinitivo.png) no-repeat left center;
 }
 
 header h2 {
@@ -1129,7 +1236,7 @@ header h2 {
 	height: 350px;
 	font-size: 1em;
 	color: #fff;
-	background: rgba(123, 121, 143, .8);
+	background: rgba(88, 152, 211, .6);
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -1323,7 +1430,7 @@ input[type="text"], input[type="email"], input[type="url"], textarea {
 /*aside styles*/
 aside {
 	float: right;
-	width: 19.1%;
+	width: 20%;
 	padding-right: 3.9%;
 }
 
@@ -1348,11 +1455,11 @@ aside nav a {
 }
 
 aside nav li {
-	background: rgb(216, 213, 188);
+	background: rgb(196, 233, 237);
 }
 
 aside nav li:nth-child(even) {
-	background: rgb(237, 228, 214);
+	background: rgb(62, 171, 183);
 }
 
 aside nav a:hover {
