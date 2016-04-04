@@ -174,6 +174,7 @@ img,video,object {
 	line-height: 100%;
 }
 
+
 /*----------------------Menu GLOBAL----------------------*/
 	#menu {
 
@@ -594,13 +595,16 @@ body {
 /*-------------------------------------------header styles----------*/
 header {
 	height: 100%;
+	margin-bottom: 0px;
 }
 /*--------------------------Logo &slogan------------------*/
 header h1 {
-	font-size: .9em;
-	padding-left: 95px;
-	margin-right: 15px;
-	line-height: 50px;
+	display: inline-block;
+	font-size: 1em;
+	padding-left: 60px;
+	padding-top: 20px;
+	margin-right: 10px;
+	line-height: 60px;
 	width: 290px;
 	margin: 0  auto;
 	background: url(../_images/desolve_logo_50.png) no-repeat left center;
@@ -609,17 +613,19 @@ header h1 {
 header h2 {
 	display: none;
 }
-/*-----------------------------TLF------------------------------*/
+/*-------------------TLF------------------------------*/
 header h2 {
+	display:inline-block;
 	font-family: Cantarell, Arial, Helvetica, sans-serif;
-	font-style: italic;
+	/*font-style: italic;*/
 	font-weight:normal;
-	font-size: 1em;
+	font-size: .9em;
 	color: #fff;
 	float: left;
+	margin-left: 75px;
 	text-transform: uppercase;
 	letter-spacing:.1em;
-	line-height: 105px;
+	line-height: 75px;
 }
 /*-----------------RIF-----------------------------*/
 header h3 {
@@ -634,7 +640,7 @@ header h3 {
 	line-height: 25px;
 }
 
-/* mission styles*/
+/***************************** mission styles*/
 .mission {
 	width: 90%;
 	margin: 0 auto;
@@ -1198,9 +1204,11 @@ body {
 	max-width: 1280px;
 }
 
+
 /*header styles principal*/
 header {
 	height: 125px;
+	margin-bottom: 5px;
 }
 /*--------------------------Logo & slogan-----------------------*/
 header h1 {
