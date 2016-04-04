@@ -175,8 +175,8 @@ img,video,object {
 }
 
 
-/*----------------------Menu GLOBAL----------------------*/
-	#menu {
+/*----------------------Menu GLOBAL--------------------------------*/
+#menu {
 
 		height: auto;
 		width: 100%;
@@ -559,7 +559,7 @@ border-bottom: 0;
 		height: 40px;
 		display: inline-block;
 		position: absolute;
-		right: 0px;
+		right: 1px;
 		top: 0px;
 		
 	}
@@ -846,6 +846,7 @@ nav select {
 
 .enter a {
 	display: block;
+	margin-left: 120px;
 }
 
 /*footer styles*/
@@ -1515,7 +1516,9 @@ aside nav a:hover {
 }
 
 .enter a {
-	float: right;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 20px;
 }
 
 /*footer styles*/
