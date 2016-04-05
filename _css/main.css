@@ -849,6 +849,12 @@ nav select {
 	margin-left: 120px;
 }
 
+.video {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+
 /*footer styles*/
 #pageFooter {
 	clear:both;
@@ -1229,7 +1235,7 @@ header h2 {
 	font-family: Cantarell, Arial, Helvetica, sans-serif;
 	font-style: normal;
 	font-weight:normal;
-	font-size: 1.4em;
+	font-size: 1.3em;
 	color: #fff;
 	float: left;
 	text-transform: uppercase;
@@ -1244,7 +1250,7 @@ header h3 {
 	font-size: .8em;
 	color: #fff;
 	float: right;
-	padding-right: 15px;
+	padding-right: 14px;
 	letter-spacing:.2em;
 	line-height: 25px;
 }
@@ -1521,6 +1527,12 @@ aside nav a:hover {
 	margin-bottom: 20px;
 }
 
+.video {
+	
+	margin-left: 0px;
+	margin-top: 10px;
+
+	}
 /*footer styles*/
 #pageFooter {
 	clear:both;
