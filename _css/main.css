@@ -493,11 +493,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', end
 
 #pageFooter a {
 	display:block;
-	height: 100px;
+	height: 80px;
 	line-height: 100px;
 	border: none;
 	color:rgb(76, 67, 65);
-	padding-left: 95px;
+	padding-left: 85px;
 	background: url(../_images/tweet_90.png) no-repeat;
 }
 
@@ -860,6 +860,7 @@ nav select {
 	clear:both;
 	overflow:hidden;
 	padding-bottom: 2em;
+	height: auto;
 }
 
 #pageFooter form {
@@ -869,8 +870,16 @@ nav select {
 
 .notice {
 	width: 300px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
 
+.avatar {
+	margin-left:30px; 
+	margin-top:50px;
+	margin-bottom:20px;
+	padding-bottom: 20px;
+}
 #pageFooter p {
 	margin-left: 5%;
 }
@@ -1547,7 +1556,14 @@ aside nav a:hover {
 }
 
 .notice {
-	width: 300px;
+	width: 250px;
+
+	
+}
+.avatar {
+	margin-left:30px; 
+	margin-top:80px;
+	margin-bottom:;
 }
 
 #pageFooter p {
